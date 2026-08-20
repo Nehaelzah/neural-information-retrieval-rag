@@ -1,0 +1,10 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+torch>=2.0
+transformers>=4.35
+sentence-transformers>=2.2
+pyserini>=0.24
+pytrec-eval-terrier>=0.5
+jupyter>=1.0
