@@ -16,18 +16,16 @@ These are historical results from the supplied course datasets and experiment en
 
 ## Repository layout
 
-- `notebooks/part_1_biomedical_retrieval.ipynb` — BM25, tuning, and cross-encoder reranking.
-- `notebooks/part_2_web_ranking_and_rag.ipynb` — sparse/dense/learned retrieval and RAG.
-- `notebooks/bonus_experiments.ipynb` — additional exploration.
+- `notebooks/README.md` — a publication-safe summary of the notebook implementations and their recorded results.
 - `data/` — data-access guidance only; no course data, queries, qrels, indexes, models, or outputs are included.
 
 ## Reproducing the work
 
-Install the packages in `requirements.txt`, then obtain the required datasets and retrieval assets through their official sources and under the applicable licences. Runtime requirements may include Java for Pyserini and substantial compute/storage for neural models. Notebook outputs have been cleared so the repository contains code, not the supplied data or course handout material.
+Install the packages in `requirements.txt`, then obtain the required datasets and retrieval assets through their official sources and under the applicable licences. Runtime requirements may include Java for Pyserini and substantial compute/storage for neural models. The original notebooks are not published because they still contain course-specific configurations and assets that cannot be redistributed.
 
 ## Academic and data note
 
-This public copy intentionally excludes assignment briefs, answers, datasets, relevance judgements, indexes, trained assets, and generated outputs. The notebooks retain implementation work only and should be read as a portfolio demonstration, not as a redistribution of course material.
+This public copy intentionally excludes assignment briefs, notebooks, answers, datasets, relevance judgements, indexes, trained assets, and generated outputs. It provides a transparent method summary and recorded aggregate results instead of redistributing course material.
 
 ## Author
 
